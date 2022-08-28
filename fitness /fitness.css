@@ -1,0 +1,126 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("b3.jpg");
+    font-family: 'Tangerine', serif;
+  text-shadow: 4px 5px 5px #aaa;
+}
+.left{
+    display: inline-block;
+    border-radius: 2cm;
+    position: absolute;
+    left: 11px;
+    top : 5px;
+    font-size: 25px;
+}
+.left div{
+    position: absolute;
+    margin: 0px 0px;
+}
+.mid{
+    display:block;
+    width: 70%;
+    margin: 5px 11%;
+    border: 2px solid #FFFFFFFF;
+    border-radius: 16px;
+    
+}
+.right {
+    display: inline-block;
+ /*   border:2px solid green;*/
+    border-radius: 2cm;
+    position: absolute;
+    right: 0px;
+    top : 41px;
+}
+.btn{
+      background-color: lightblue;
+      color: blue;
+      font-size: 18px;
+      margin: 0px 2px;
+      padding: 5px 15px;
+      border: 2px solid grey;
+      border-radius: 10px;
+      font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
+      
+}
+.btn:hover, .btn.active{
+    background-color: grey;
+    color: #FF15CBFF;
+}
+.navbar{
+    display : inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 40px;
+}
+.navbar li a{
+    color: #FFFFEABF;
+    text-decoration: none;
+    padding: 0px 12px;
+}
+.navbar li a:hover, .navebar li a.active{
+    text-decoration: underline ;
+    color: #FFFF00C7;
+    
+}
+.left img{
+    display: inline-block;
+    filter : invert(100%);
+    border-radius: 200%;
+    width : 45%;
+    padding: 5px 15px;
+    margin: 5px 2px;
+}
+.container {
+    position : absolute;
+    left : 3px;
+    border : 2px solid #FFFFFFFF;
+    margin: 40px 12px;
+    padding: 30px 30px;
+    border-radius: 19px;
+}
+.container h2{
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+   
+
+}
+.form-group input {
+font-family: 'Aboreto', cursive;
+ font-size: 15px;
+    text-align: center;
+    display: block ;
+    width: 300px;
+    margin:15px auto ;
+    padding: 4px 5px
+   
+    border-radius: 10px;
+}
+.btn2{
+ font-size: 18px;
+text-align: center ;
+font-family: 'Tangerine', serif;
+  text-shadow: 4px 4px 4px #aaa;
+    background-color: grey;
+    display: block;
+    margin: 5px auto;
+    width: 310px;
+    border-radius: 9px;
+   
+}
+.side-img{
+z-index: -1;
+    display: inline-block;
+    border-radius: 2cm;
+    position: absolute;
+    right: 1px;
+    top : 100px;
+    width: 59%;
+    
+}
+
+    
